@@ -11,9 +11,9 @@ const Skills = () => {
         Skills
       </p>
       <div className=" rounded-md w-[90%]  flex flex-col antialiased  bg-[#0a0a0a] bg-dot-white/[0.2] items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards items={languages} direction="right" speed="slow" />
-        <InfiniteMovingCards items={frameworks} direction="left" speed="slow" />
-        <InfiniteMovingCards items={tools} direction="right" speed="slow" />
+        <InfiniteMovingCards items={languages} direction="right" speed="fast" />
+        <InfiniteMovingCards items={frameworks} direction="left" speed="fast" />
+        <InfiniteMovingCards items={tools} direction="right" speed="fast" />
       </div>
     </div>
   );
