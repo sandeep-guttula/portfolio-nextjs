@@ -5,7 +5,10 @@ import { HoverEffect } from "../card/card-hover-effect";
 
 const MyProjects = () => {
   return (
-    <div className=" relative w-full bg-[#0a0a0a] flex flex-col items-center justify-around overflow-hidden rounded-md">
+    <div
+      id="projects"
+      className=" relative w-full bg-[#0a0a0a] flex flex-col items-center justify-around overflow-hidden rounded-md"
+    >
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
