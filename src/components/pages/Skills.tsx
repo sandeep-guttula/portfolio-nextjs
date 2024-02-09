@@ -87,9 +87,6 @@ const frameworks = [
     name: "Firebase",
   },
   {
-    name: "Flask",
-  },
-  {
     name: "Bootstrap",
   },
   {
